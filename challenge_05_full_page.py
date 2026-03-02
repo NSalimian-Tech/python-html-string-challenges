@@ -38,7 +38,7 @@ for t in tags:
 
 max_pos = max(positions)
 paragraph1 = "\n    <p>This is the first dynamic paragraph.</p>"
-image = '\n    <img src="success.png" alt="Success">'
+image = '\n    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600" alt="Coding" style="width:100%; border-radius:10px; margin-top:20px;">'
 html = html[:max_pos] + paragraph1 + image + html[max_pos:]
 
 title_start = html.find("<title>") + 7
